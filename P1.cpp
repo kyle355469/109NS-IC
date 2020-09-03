@@ -2,8 +2,15 @@
 #include <cstdio>
 using namespace std;
 int main(){
-	int num[100000] = {};
+	
 	int now, input = 0;
+	int num[1000000] = {};
+	/*int aaa;
+	cin >> aaa;
+	int num[aaa] = {};
+	for(int i = 0; i < aaa; i++){
+		cin >> num[i];	
+	}*/
 	while(cin >> input){
 		num[now++] = input;
 		char end = getchar();

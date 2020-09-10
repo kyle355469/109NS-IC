@@ -10,7 +10,7 @@ int main(){
 			now = 1;
 		}
 		if(str[i] == ' ' || str[i] == ',' ||
-		   str[i] == ';' || str[i] == '!' || str[i] == '.'){
+		   str[i] == ';' || str[i] == '!' || str[i] == '.' || i == str.size() - 1){
 		   	total += now;
 		   	now = 0;
 		}
